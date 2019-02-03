@@ -16,7 +16,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 @RunWith(Parameterized.class)
-public abstract class SolverBaseTest {
+public abstract class SolverAlgorithmBaseTest {
 
     @Parameter
     public Integer expectedLoopLength;
